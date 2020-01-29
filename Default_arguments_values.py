@@ -15,7 +15,8 @@ def ask_ok(prompt, retries = 4, complaint = 'Yes or No, Please..!'):
 ask_ok("ENter Yes or NO")
 
 print('\n')
-#Example - 2
+
+# Example - 2
 
 print("**** Example - 2 ****")
 
@@ -26,7 +27,7 @@ def get_gender(sex = 'Unknown'):
     sex = 'FEMALE'
   print(sex)
 
-
+  
 get_gender('m')
 get_gender('f')
 get_gender() # Prints default value which is assigned in the Function
