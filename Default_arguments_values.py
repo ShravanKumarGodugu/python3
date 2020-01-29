@@ -27,7 +27,7 @@ def get_gender(sex = 'Unknown'):
     sex = 'FEMALE'
   print(sex)
 
-
+  
 get_gender('m')
 get_gender('f')
 get_gender() # Prints default value which is assigned in the Function
