@@ -29,4 +29,4 @@ def get_gender(sex = 'Unknown'):
 
 get_gender('m')
 get_gender('f')
-get_gender()
+get_gender() # Prints default value which is assigned in the Function
