@@ -15,6 +15,7 @@ def ask_ok(prompt, retries = 4, complaint = 'Yes or No, Please..!'):
 ask_ok("ENter Yes or NO")
 
 print('\n')
+
 #Example - 2
 
 print("**** Example - 2 ****")
