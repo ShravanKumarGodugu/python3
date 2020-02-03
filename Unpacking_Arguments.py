@@ -1,4 +1,3 @@
-
 # Unpacking_Arguments (Bucky's Example).
 
 def health_calculator(age, apples_ate,cigarates_smoked):
@@ -15,18 +14,12 @@ health_calculator(*bdata)
 
 
 def parrot(voltage, state='A Stiff', action='Voom'):
-  print("--This parrot wouldn't ", action,"If u Put",voltage,'Volts through it',"E's", state, "!")
+  print("--This parrot wouldn't ", action), print("If u Put",voltage,'Volts through it'), print("E's", state, "!")
 
 
-d = {"voltage": "Four Million", "state": "Bleedin' Demissed", "action": "VOOM"}  #  Dictionaries Can deliver keyword args with ** Operator
-parrot(**d)
+d = {"voltage": "Four Million", "state": "Bleedin' Demissed", "action": "VOOM"}
+parrot(*d)
 
 
-# Example 3:
 
 
-def a():
-  args = [3,6]
-  return args
-
-print(list(range(*a())))
