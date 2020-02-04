@@ -12,7 +12,7 @@ health_calculator(*bdata)
 
 
 # Example2
-
+`
 
 def parrot(voltage, state='A Stiff', action='Voom'):
   print("--This parrot wouldn't ", action,"If u Put",voltage,'Volts through it',"E's", state, "!")
@@ -29,4 +29,4 @@ def a():
   args = [3,6]
   return args
 
-print(list(range(*a())))
+print(list(range(*a()))) # In Python 3 Range is an object

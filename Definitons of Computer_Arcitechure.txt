@@ -1,0 +1,33 @@
+Lithography :
+
+Lithography refers to the semiconductor technology used to manufacture an integrated circuit, and is reported in nanometer (nm), indicative of the size of features built on the semiconductor.
+
+
+Cores :
+
+Cores is a hardware term that describes the number of independent central processing units in a single computing component (die or chip).
+
+
+Thread :
+
+A Thread, or thread of execution, is a software term for the basic ordered sequence of instructions that can be passed through or processed by a single CPU core.
+
+
+Processor Base Frequency :
+
+Processor Base Frequency describes the rate at which the processor's transistors open and close. The processor base frequency is the operating point where TDP is defined. Frequency is measured in gigahertz (GHz), or billion cycles per second.
+
+
+Max Turbo Frequency:
+
+Max turbo frequency is the maximum single core frequency at which the processor is capable of operating using Intel® Turbo Boost Technology and, if present, Intel® Thermal Velocity Boost. Frequency is measured in gigahertz (GHz), or billion cycles per second
+
+
+Cache :
+
+CPU Cache is an area of fast memory located on the processor. Intel® Smart Cache refers to the architecture that allows all cores to dynamically share access to the last level cache.
+
+
+TDP :
+
+Thermal Design Power (TDP) represents the average power, in watts, the processor dissipates when operating at Base Frequency with all cores active under an Intel-defined, high-complexity workload. Refer to Datasheet for thermal solution requirements.
