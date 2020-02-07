@@ -1,6 +1,5 @@
 # LAMBDA FORM EXAMPLE
 
-
 def make_increment(n):
   return lambda x:x+n
 
