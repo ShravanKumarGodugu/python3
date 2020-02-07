@@ -1,32 +1,12 @@
+#  Another Example for Arbitrary Arguments.
+# def cat(*args, sep = "/" ):
+#   return sep.join(args)
 
-# Unpacking_Arguments (Bucky's Example).
+# cat("earth", "Mars", "Venus")
+# cat("earth", "Mars", "Venus", sep=".")
 
-def health_calculator(age, apples_ate,cigarates_smoked):
-  answer = (100-age) + (apples_ate * 3.5) - (cigarates_smoked * 2 )
-  print(answer)
+def make_increment(n):
+  return lambda x:x+n
 
-
-bdata = [27,20,0]
-health_calculator(bdata[0], bdata[1], bdata[2])
-health_calculator(*bdata)
-
-
-# Example2
-`
-
-def parrot(voltage, state='A Stiff', action='Voom'):
-  print("--This parrot wouldn't ", action,"If u Put",voltage,'Volts through it',"E's", state, "!")
-
-
-d = {"voltage": "Four Million", "state": "Bleedin' Demissed", "action": "VOOM"}  #  Dictionaries Can deliver keyword args with ** Operator
-parrot(**d)
-
-
-# Example 3:
-
-
-def a():
-  args = [3,6]
-  return args
-
-print(list(range(*a()))) # In Python 3 Range is an object
+f = make_increment(int(input("Enter a no")))
+print("Incremented no is {}".format(f(1)))
