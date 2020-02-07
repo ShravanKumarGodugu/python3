@@ -28,6 +28,7 @@ def a():
   args = [3,6]
   return args
 
+
 print(list(range(*a()))) # In Python 3 Range is an object
 
 
