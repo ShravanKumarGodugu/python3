@@ -1,14 +1,3 @@
-# More On Lists.
-
-# empty_list = []
-# A = input("enter items in a list:- ")
-# empty_list.append(A)
-  
-# B = input("Enter next item")
-# empty_list.append(B)
-
-# print(empty_list)
-
 #  Sentinel controlled repetition
 empty_list = []
 
