@@ -37,7 +37,6 @@ print("\n")
 empty_list.count(a) #  Returns the number of times 'a' appears in the list. Else
 print('\n',empty_list)
 
-# empty_list.
 
 
 # INDEX example
