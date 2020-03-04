@@ -31,7 +31,7 @@ queue.append('Deepak')  # First In
 queue.append('Abhilash')
 print("\nUsing append method created List is  ===> ", list(queue))
 
-# Using POP method
+# Using POP method.
 
 queue.popleft()
 print("\nFinal output Using POP LEFT METHOD ===> ", list(queue))
