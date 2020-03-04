@@ -27,4 +27,3 @@ def my_sum(x,y):
 
 calling_reducefuntion = reduce(my_sum, range(2,20))
 print("Reduce function Output is (Renturns single value)", calling_reducefuntion)
-
