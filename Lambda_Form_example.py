@@ -6,3 +6,5 @@ def make_increment(n):
 
 f = make_increment(int(input("Enter a no")))
 print("Incremented no is {}".format(f(1)))
+
+
