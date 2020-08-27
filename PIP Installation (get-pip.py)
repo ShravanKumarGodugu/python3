@@ -1,0 +1,15 @@
+To Install get-pip.py we have to download get-pip.py from mentioned URL -->  https://bootstrap.pypa.io/get-pip.py
+Open the page and right click on it saveas python file
+
+
+Open the Command Prompt. Use the cd command followed by a folder name to navigate to the location of the get-pip.py file. This is the folder
+you previously used as the download location.
+
+To install PIP type in the following:
+python get-pip.py
+
+To check pip installed and working properly use the following::
+
+pip --version
+
+if it is installed correctly it displays version " pip 20.2.2 from d:\python\lib\site-packages\pip (python 3.8) "
