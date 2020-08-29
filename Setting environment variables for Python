@@ -1,0 +1,8 @@
+Copy the Path of Python installation folder/ Scripts Folder
+
+example:: C:\Python27 & C:\Python27\Scripts
+
+Add the values to Path variable in system variables
+
+
+
